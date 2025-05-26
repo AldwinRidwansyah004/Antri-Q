@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Admin Header (menempel di atas) -->
+    <TextView
+        android:id="@+id/adminLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/admin_box_background"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Title -->
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Service HP Cepat"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <!-- Buttons with Border -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnQueueStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Queue Status"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnQueueSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Queue Setting"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNewQueue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Queue"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Logo -->
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ANTRI."
+        android:textColor="#C62828"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
