@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Antri-Q</string>
+    <string name="todo">TODO</string>
+    <string name="on_queue">On Queue</string>
+    <string name="time_last_09_59">Time last : 09.59</string>
+    <string name="service_hp_cepat">Service HP Cepat</string>
+    <string name="cancel_queue">Cancel Queue</string>
+    <string name="last_call">Last Call</string>
+    <string name="_003">003</string>
+    <string name="queue_status">QUEUE STATUS</string>
 </resources>
